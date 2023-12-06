@@ -96,3 +96,39 @@ td{
 .pclass{
     height: 4px;
 }
+.percentage {
+    display: block;
+    height: 100%;
+    background-color:rgba(165, 42, 42, 0.418);
+    border-radius: 5px;
+    animation: progress 1500ms ease-in 1;
+}
+
+/* Assigning width of each languages*/
+.c {
+    width: 85%;
+}
+
+.java {
+    width: 70%;
+}
+
+.python {
+    width: 55%;
+}
+
+.html {
+    width: 75%;
+}
+
+.css {
+    width: 65%;
+}
+.progress-bar {
+    width: 400px;
+    height: 3px;
+    margin-top: 10px;
+    border: 1px solid #565656cc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(150, 102, 12, 0.719);
+}
